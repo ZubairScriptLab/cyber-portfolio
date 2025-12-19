@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zubair Ahmed | Cybersecurity Freelancer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0b0f14;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffc6;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cbd5e1;
+      max-width: 900px;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin: 20px 0;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      margin-right: 15px;
+      border-radius: 6px;
+      font-weight: 600;
+      border: 2px solid #00ffc6;
+      transition: 0.3s ease;
+    }
+
+    .btn.primary {
+      background: #00ffc6;
+      color: #0b0f14;
+    }
+
+    .btn.secondary:hover {
+      background: #00ffc6;
+      color: #0b0f14;
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #0f172a;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid rgba(0,255,198,0.15);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 20px rgba(0,255,198,0.2);
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      section {
+        padding: 60px 7%;
+      }
+
+      .hero h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Protecting Digital Assets.<br>Securing Your Business.</h1>
+    <p>
+      I’m <strong>Zubair Ahmed</strong>, a cybersecurity freelancer helping individuals,
+      startups, and small businesses identify security risks and build safer systems
+      using ethical and responsible security practices.
+    </p>
+    <div class="buttons">
+      <a href="#contact" class="btn primary">Hire Me</a>
+      <a href="#services" class="btn secondary">View Services</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a Cybersecurity Freelancer based in Quetta, Pakistan, with a Bachelor’s degree
+      in Computer Science (Cybersecurity focus). My work focuses on ethical hacking,
+      vulnerability assessment, and security testing using real-world tools.
+      <br><br>
+      I believe cybersecurity is about protecting people and businesses — not exploiting
+      systems. I’m honest about my experience level, highly motivated, and always improving
+      my skills through hands-on labs and continuous learning.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Core Skills</h2>
+    <div class="grid">
+      <div class="card">Ethical Hacking</div>
+      <div class="card">Web Application Security</div>
+      <div class="card">Network Security</div>
+      <div class="card">Vulnerability Assessment</div>
+      <div class="card">Penetration Testing (Beginner–Intermediate)</div>
+      <div class="card">Linux & Kali Linux</div>
+      <div class="card">OWASP Top 10</div>
+      <div class="card">Basic Incident Response</div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section>
+    <h2>Tools & Technologies</h2>
+    <div class="grid">
+      <div class="card">Nmap</div>
+      <div class="card">Burp Suite</div>
+      <div class="card">Metasploit</div>
+      <div class="card">Nikto</div>
+      <div class="card">Wireshark</div>
+      <div class="card">Netcat</div>
+      <div class="card">Kali Linux</div>
+      <div class="card">DVWA & Practice Labs</div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card">Website Security Testing</div>
+      <div class="card">Vulnerability Scanning & Reports</div>
+      <div class="card">Basic Penetration Testing</div>
+      <div class="card">Small Business Security Audit</div>
+      <div class="card">Linux Security Hardening</div>
+      <div class="card">Cybersecurity Consultation</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Sample Work & Practice Projects</h2>
+    <div class="grid">
+      <div class="card">Secured DVWA & fixed OWASP Top 10 issues</div>
+      <div class="card">Web vulnerability identification projects</div>
+      <div class="card">Network scanning & risk analysis reports</div>
+      <div class="card">Linux system hardening labs</div>
+    </div>
+  </section>
+
+  <!-- WHY ME -->
+  <section>
+    <h2>Why Hire Me</h2>
+    <p>
+      ✔ Ethical & responsible hacker<br>
+      ✔ Clear communication & reports<br>
+      ✔ Affordable for startups<br>
+      ✔ Strong hands-on skills<br>
+      ✔ Always learning & improving
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      Ready to secure your digital assets? Let’s work together.
+      <br><br>
+      📧 Email: <strong>zubairahemdboyound@gmail.com</strong><br>
+      🔗 LinkedIn: <strong>https://www.linkedin.com/in/zubair-ahemd-1b90893a1/</strong>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    Securing systems today. Building safer digital futures.<br>
+    © 2025 Zubair Ahmed | Cybersecurity Freelancer
+  </footer>
+
+</body>
+</html>
